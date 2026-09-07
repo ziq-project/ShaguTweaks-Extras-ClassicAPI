@@ -43,8 +43,11 @@ Settings: **Esc → Advanced Options**.
 - Buy Em All uses ClassicAPI merchant, item count and bag-family data, including specialty bags.
 - Added modifier-aware Key-Down Casting with Shift/Ctrl/Alt binding support and an independent Alt Self-Cast option.
 - Added Metric Range for metre labels in range tooltips without changing numeric values.
-- Added optimized modules adapted from TokensWorth/ShaguTweaks-mods: Mouseover Right bars, Hide Macro Text, Unit Frame Abbreviated Names, Cursor Tooltip, Hide Combat Tooltip and MiniMap Framerate & Latency.
+- Added optimized modules adapted from TokensWorth/ShaguTweaks-mods: Mouseover Right bars, Hide Macro Text, Unit Frame Abbreviated Names, Cursor Tooltip, Hide Combat Tooltip, MiniMap Framerate & Latency, Block NPC Spam, World Chat Hider and Loot Quality.
 - MiniMap Framerate & Latency updates both counters through one ClassicAPI ticker instead of permanent per-frame handlers.
+- Block NPC Spam and World Chat Hider share one on-demand chat filter dispatcher instead of stacking separate global chat wrappers.
+- World Chat Hider suppresses World messages locally in instances and never leaves or rejoins the channel.
+- Loot Quality is event-driven and checks all current loot slots instead of only visible loot buttons.
 - Hide Combat Tooltip uses ClassicAPI modifier-state events instead of permanent per-frame modifier polling.
 - Various stability fixes across legacy ShaguTweaks Extras modules.
 
@@ -96,6 +99,10 @@ Other modules can also benefit indirectly from ClassicAPI through shared ShaguTw
 - Auction Alt-Buy
 - Buy Em All
 
+### Loot
+
+- Loot Quality
+
 ### Tooltip & Items
 
 - Metric Range
@@ -113,6 +120,8 @@ Other modules can also benefit indirectly from ClassicAPI through shared ShaguTw
 
 ### Chat
 
+- Block NPC Spam
+- World Chat Hider
 - Chat Timestamps
 - Center Text Input Box
 - Enable Text Shadow

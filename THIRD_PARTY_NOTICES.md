@@ -38,6 +38,9 @@ The following modules in this fork contain code adapted from
 - `mods/cursor-tooltip.lua`
 - `mods/hide-combat-tooltip.lua`
 - `mods/minimap-framerate-latency.lua`
+- `mods/chat-npc-spam.lua`
+- `mods/world-chat-hider.lua`
+- `mods/loot-quality.lua`
 
 Source:
 - https://github.com/TokensWorth/ShaguTweaks-mods
