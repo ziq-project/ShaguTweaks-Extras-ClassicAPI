@@ -66,7 +66,11 @@ module.enable = function(self)
       return originalDefaultAnchor(tooltip, parent)
     end
 
-    tooltip:SetOwner(parent or UIParent, "ANCHOR_NONE")
+    -- Cursor Tooltip intentionally uses ANCHOR_CURSOR without marking the
+    -- tooltip as a default anchored tooltip. This matches the upstream mod's
+    -- lifecycle and makes world-unit tooltips disappear immediately when the
+    -- mouseover unit is lost, while keeping the custom cursor positioning.
+    tooltip:SetOwner(parent or UIParent, "ANCHOR_CURSOR")
     tooltip:ClearAllPoints()
 
     -- Position once before Show() so there is no first-frame jump from the
@@ -75,7 +79,6 @@ module.enable = function(self)
 
     tooltip:SetPoint("BOTTOMLEFT", cursor, "TOPRIGHT", 12, 12)
     tooltip:SetClampedToScreen(true)
-    tooltip.default = 1
 
     following = true
   end
