@@ -37,6 +37,7 @@ The following modules in this fork contain code adapted from
 - `mods/unitframes-abbrev-names.lua`
 - `mods/cursor-tooltip.lua`
 - `mods/hide-combat-tooltip.lua`
+- `mods/minimap-framerate-latency.lua`
 
 Source:
 - https://github.com/TokensWorth/ShaguTweaks-mods

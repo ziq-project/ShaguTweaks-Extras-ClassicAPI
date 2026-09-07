@@ -43,7 +43,8 @@ Settings: **Esc → Advanced Options**.
 - Buy Em All uses ClassicAPI merchant, item count and bag-family data, including specialty bags.
 - Added modifier-aware Key-Down Casting with Shift/Ctrl/Alt binding support and an independent Alt Self-Cast option.
 - Added Metric Range for metre labels in range tooltips without changing numeric values.
-- Added optimized modules adapted from TokensWorth/ShaguTweaks-mods: Mouseover Right bars, Hide Macro Text, Unit Frame Abbreviated Names, Cursor Tooltip and Hide Combat Tooltip.
+- Added optimized modules adapted from TokensWorth/ShaguTweaks-mods: Mouseover Right bars, Hide Macro Text, Unit Frame Abbreviated Names, Cursor Tooltip, Hide Combat Tooltip and MiniMap Framerate & Latency.
+- MiniMap Framerate & Latency updates both counters through one ClassicAPI ticker instead of permanent per-frame handlers.
 - Hide Combat Tooltip uses ClassicAPI modifier-state events instead of permanent per-frame modifier polling.
 - Various stability fixes across legacy ShaguTweaks Extras modules.
 
@@ -57,6 +58,7 @@ Settings: **Esc → Advanced Options**.
 - Alt Self-Cast
 - Macro Icons
 - Macro Tweaks
+- MiniMap Framerate & Latency
 - Raid Frames
 - Reagent Counter
 - Reveal World Map
@@ -104,8 +106,9 @@ Other modules can also benefit indirectly from ClassicAPI through shared ShaguTw
 
 - Unit Frame Abbreviated Names
 
-### World Map
+### Minimap & World Map
 
+- MiniMap Framerate & Latency
 - Reveal World Map
 
 ### Chat

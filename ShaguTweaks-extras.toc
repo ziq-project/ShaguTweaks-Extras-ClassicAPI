@@ -47,7 +47,8 @@ mods\hide-combat-tooltip.lua
 # unit frames
 mods\unitframes-abbrev-names.lua
 
-# world map
+# minimap & world map
+mods\minimap-framerate-latency.lua
 mods\worldmap-reveal.lua
 
 # macro
