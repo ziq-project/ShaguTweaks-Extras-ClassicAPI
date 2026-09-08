@@ -98,8 +98,8 @@ module.enable = function(self)
   latencyFrame:ClearAllPoints()
 
   if _G.MinimapClock then
-    fpsFrame:SetPoint("RIGHT", _G.MinimapClock, "LEFT", -2, 0)
-    latencyFrame:SetPoint("LEFT", _G.MinimapClock, "RIGHT", 2, 0)
+    fpsFrame:SetPoint("RIGHT", _G.MinimapClock, "LEFT", 2, 0)
+    latencyFrame:SetPoint("LEFT", _G.MinimapClock, "RIGHT", -2, 0)
   else
     fpsFrame:SetPoint("BOTTOM", Minimap, "BOTTOM", -28, -25)
     latencyFrame:SetPoint("BOTTOM", Minimap, "BOTTOM", 28, -25)
