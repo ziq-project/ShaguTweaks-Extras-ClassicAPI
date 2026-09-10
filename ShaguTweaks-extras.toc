@@ -1,6 +1,6 @@
 ## Interface: 11200
-## Title: |cffffcc00Shagu|cffffffffTweaks |cffcccccc[Extras ClassicAPI]
-## Author: Shagu - modified by paokkerkir / Dusk-92
+## Title: |cffffcc00Shagu|cffffffffTweaks |cffcccccc[Extras ClassicAPI]|cff7fff7f - Project Legacy|r
+## Author: Shagu | a Project Legacy fork by ziq
 ## Notes: Complementary modules for ShaguTweaks-ClassicAPI
 ## Version: GIT
 ## Dependencies: ShaguTweaks
